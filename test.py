@@ -9,6 +9,8 @@ class database:
         user="admin",
         passwd='helloThisismysqlpassword12345',
     )
+
+    def UserBase(self):
         mycursor = conn.cursor()
         mycursor.execute("use Discordbot;")
 
